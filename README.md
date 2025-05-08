@@ -1,8 +1,8 @@
-WHO Life Expectancy Analysis
+# WHO Life Expectancy Analysis
 
-### This project analyzes global life expectancy data using exploratory data analysis (EDA) and machine learning models. The goal is to uncover key factors influencing life expectancy across countries and predict outcomes using regression techniques.
+### This project analyzes global life expectancy data using exploratory data analysis (EDA) and machine learning models. The goal is to uncover key factors influencing life expectancy across countries and predict outcomes using regression techniques.
 
-Dataset
+## Dataset
 
 [Life Expectancy (WHO) ](https://www.kaggle.com/datasets/kumarajarshi/life-expectancy-who/data)
 
@@ -15,7 +15,7 @@ Dataset
 * **Features**: Health, economic, demographic indicators
   
 
-Requirements
+## Requirements
 
 * pandas
   
@@ -30,7 +30,7 @@ Requirements
 * scipy
   
 
-Methodology
+## Methodology
 
 * Data cleaning and transformation (log scaling, outlier handling)
   
@@ -43,6 +43,6 @@ Methodology
 * Evaluation using R², RMSE, MAE
   
 
-Results
+## Results
 
 Random Forest Regressor gave the best performance with highest R² and lowest error metrics.
